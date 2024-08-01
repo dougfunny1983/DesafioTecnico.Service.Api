@@ -1,0 +1,12 @@
+﻿global using AutoFixture;
+global using DesafioTecnico.Service.DotNet8.Api.Models;
+global using DesafioTecnico.Service.DotNet8.Application.Enuns;
+global using DesafioTecnico.Service.DotNet8.Application.Interfaces.DatabaseContext.Colections;
+global using DesafioTecnico.Service.DotNet8.Application.Models;
+global using DesafioTecnico.Service.DotNet8.IntegratedTests.Helper;
+global using FluentAssertions;
+global using Microsoft.AspNetCore.Mvc.Testing;
+global using Microsoft.Extensions.DependencyInjection;
+global using Moq;
+global using System.Text;
+global using System.Text.Json;
